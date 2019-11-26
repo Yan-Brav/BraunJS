@@ -1,0 +1,22 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "underscore": "^1.9.1"
+  },
+  "name": "braunlearningjs",
+  "version": "1.0.0",
+  "description": "JavaScript practice",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.2.0"
+  }
+}

@@ -1,4 +1,6 @@
 node-modules
+dist
+public/dist
 *.tmp
 *.log
 package-lock.json
