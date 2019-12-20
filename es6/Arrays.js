@@ -51,6 +51,9 @@ console.log(arr3.splice(2, 1, 'a', "b"));
 console.log(arr3);
 console.log("-----------");
 //copyWithin testing
+//first arg - where insert
+//second arg - where from copy
+//third(no mandatory) - where finish copy
 const arr4 = [1, 2, 3, 4];
 console.log(arr4.copyWithin(1, 2));
 console.log(arr4.copyWithin(2, 0, 2));
@@ -121,7 +124,7 @@ const names = cart.map(x => x.name);
 const prices = cart.map(x => x.price);
 const discountPrices = prices.map(x => x*0.8);
 const lcNames = names.map(x => x.toLowerCase());
-// const lcNames = names.map(String.toLowerCase);
+// const lcNames = names.map(String.toLowerCase) look Braun page #166;
 console.log(names);
 console.log(prices);
 console.log(discountPrices);
@@ -149,4 +152,37 @@ console.log(cards.filter(c => c.value > 10));
 console.log("-----------");
 //getting all shapes of hearts
 console.log(cards.filter(c => c.value > 10 && c.suit === 'H'));
+console.log("map and filter testing how they work together");
+//map and filter testing how they work together
+function cardToString(c) {
+	const suits = {'H': '\u2665', 'C': '\u2663', 'D': '\u2666', 'S': '\u2660'};
+	const values = {1: 'A', 11: 'J', 12: 'Q', 13: 'K'};
+	for (let i = 2; i < 10; i++) {
+		values[i] = i;
+	}
+	return values[c.value] + suits[c.suit];
+}
+console.log(cards.filter(c => c.value ===2).map(cardToString));
+console.log(cards.filter(c => c.value >10 && c.suit === 'H').map(cardToString));
+console.log("reduce testing");
+//reduce testing
+const arr13 = [5, 7, 2, 4];
+console.log(arr13.reduce((a, x) => a += x));
+console.log("-----------");
+const words = ["Beachball", "Rodeo", "Aardvark", "Xylophone", "November", "Chocolate",
+				"Papaya", "Uniform", "Joker", "Clover", "Bali"];
+const alphabetical = words.sort().reduce((a, x) => {
+	if(!a[x[0]]) a[x[0]] = [];
+	a[x[0]].push(x);
+	return a; }, {});
+console.log(alphabetical);
+console.log("-----------");
+const longWords = words.reduce((a, w) => w.length > 6 ? a + " " + w : a, "").trim();
+console.log(longWords);
+console.log("-----------");
+const arr14 = ["Stiga", "Donic", "Butterfly"];
+const html = '<ul>\n <li>' + arr14.join('</li>\n <li>') + '</li>\n</ul>';
+// delete arr14[2];
+// arr14.map(x => 0);
+console.log(html);
 console.log("-----------");
