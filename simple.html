@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple HTML page</title>
+    <style>
+        .callout {
+            border: solid 1px #ff0080;
+            margin: 2px 4px;
+            padding: 2px 6px;
+        }
+        .code {
+            background: #cccccc;
+            margin: 1px 2px;
+            padding: 1px 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+    <body>
+        <header>
+            <h1> It is simple HTML page</h1>
+        </header>
+        <div id="content">
+            <p>It is <i>simple</i>HTML file.</p>
+            <div class="callout">
+                <p>It allow to do amazing things</p>
+            </div>
+            <p>Identifiers of elements (for example, <span class="code">#content</span> )
+                    are unique (they have to use only once on the page)</p>
+            <p>Names of classes (for example, <span class="code">.callout</span> )
+                    can use in a lot of elements.</p>
+            <div id="callout2" class="callout fancy">
+                <p>Every HTML element we can appropriate a few classes</p>
+            </div>
+        </div>
+        <script src="es6/dom.js"></script>
+    </body>
+</html>

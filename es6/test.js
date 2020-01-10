@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 // es6 feature: block of fake messages
 const sentences = [
   { subject: 'JavaScript', verb: 'is', object: 'great' },

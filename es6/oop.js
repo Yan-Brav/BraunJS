@@ -1,7 +1,7 @@
 const Car = (function () {
 
 	const carProps = new WeakMap();
-	
+
 	class Car{
 		constructor(make, model, vin) {
 		this.make = make;
@@ -17,17 +17,17 @@ const Car = (function () {
 			throw new Error(`It is error gear: ${value}`);
 		}
 		carProps.get(this).userGear = value;
-	}		
+	}
 		toString(){
 			return `${this.make} ${this.model}: ${this.vin}`;
-		}	
+		}
 		shift(gear){this.userGear = gear;}
 	}
-		
+
 	return Car;
 }) ();
 
-class InsurancePolicy(){}
+class InsurancePolicy () {}
 	function makeInsurable(o){
 		o.addInsurancePolicy = function(p) { this.insurancePolicy = p; }
 		o.getInsurancePolicy = function() { return this.insurancePolicy; }
@@ -52,18 +52,18 @@ class InsurancePolicy(){}
 	// console.log(car1.toString());
 	// console.log(car2.toString());
 	// console.log( "---------------------------" );
-	
-	
-	
-	
-	
 
 
 
-	
 
-	
 
-	
 
-	
+
+
+
+
+
+
+
+
+

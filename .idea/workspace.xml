@@ -1,16 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5d886cb-fc49-41b3-a943-ec7f06161729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ajaxServer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/datetime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/iteratorGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/regex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BraunLearningJS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BraunLearningJS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/anonymFunc.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/anonymFunc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/mapAndSet.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/mapAndSet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/mapSet.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/mapSet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/oop.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/oop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGulp">
+      <scroll-view-position x="0" y="0" />
+      <selected-paths>
+        <path>
+          <id value="$PROJECT_DIR$/gulpfile.js" />
+          <id value="default" />
+        </path>
+      </selected-paths>
+    </layout>
+  </component>
   <component name="ProjectId" id="1VFtDUk46YLcm9nXb3o0Wvx3lN6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last.edited.regexp" value="sss" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="event.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BraunLearningJS/event.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BraunLearningJS/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="simple.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BraunLearningJS/simple.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ajaxServer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ajaxServer.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.ajaxServer.js" />
+        <item itemvalue="JavaScript Debug.event.html" />
+        <item itemvalue="JavaScript Debug.simple.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5d886cb-fc49-41b3-a943-ec7f06161729" name="Default Changelist" comment="" />
+      <created>1576860551014</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576860551014</updated>
+      <workItem from="1576860552776" duration="5071000" />
+      <workItem from="1576953057352" duration="1691000" />
+      <workItem from="1577104589740" duration="3226000" />
+      <workItem from="1577190967096" duration="1081000" />
+      <workItem from="1577447511913" duration="9073000" />
+      <workItem from="1577617463571" duration="2427000" />
+      <workItem from="1577717281383" duration="2562000" />
+      <workItem from="1577776221917" duration="11732000" />
+      <workItem from="1577983609315" duration="2981000" />
+      <workItem from="1578071158687" duration="2133000" />
+      <workItem from="1578135094499" duration="2960000" />
+      <workItem from="1578212608428" duration="2102000" />
+      <workItem from="1578479473533" duration="5932000" />
+      <workItem from="1578569396436" duration="9934000" />
+    </task>
+    <task id="LOCAL-00001" summary="2019_12_29_Added assynch.js, datetime.js">
+      <created>1577617817128</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577617817128</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019_12_29_Added assynch.js, datetime.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019_12_29_Added assynch.js, datetime.js" />
   </component>
 </project>

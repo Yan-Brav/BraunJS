@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event propagation</title>
+</head>
+<body>
+    <!--<div>
+        <button>Click here!</button>
+    </div>-->
+    <div class="serverInfo">
+        Server on platform <span data-replace="platform">???</span>,
+        Node version <span data-replace="nodeVersion">???</span>.
+        It has been up for <span data-replace="uptime">???</span> seconds.
+    </div>
+    <!--<script>
+        //create event handler and return it
+        function logEvent (handlerName, type, cancel, stop, stopImmediate) {
+          //it is really event handler
+          return function (evt) {
+            if(cancel) evt.preventDefault();
+            if(stop) evt.stopPropagation();
+            if(stopImmediate) evt.stopImmediatePropagation();
+            console.log(`${type}: ${handlerName}` +
+              (evt.defaultPrevented ? '(was canceled)' : ''));
+          }
+        }
+        //add event register to the element
+        function addEventLogger (elt, type, action) {
+          const capture = type === 'capture';
+          elt.addEventListener('click',
+            logEvent(elt.tagName, type, action === 'cancel', action === 'stop', action === 'stop!'), capture);
+        }
+        const body = document.querySelector('body');
+        const div = document.querySelector('div');
+        const button = document.querySelector('button');
+
+        addEventLogger(body, 'capture');
+        addEventLogger(body, 'bubble');
+        addEventLogger(div, 'capture');
+        addEventLogger(div, 'bubble');
+        addEventLogger(button, 'capture', 'stop!');
+        addEventLogger(button, 'bubble');
+    </script>-->
+    <script type="application/javascript">
+       function refreshServerInfo() {
+            const req = new XMLHttpRequest();
+            req.addEventListener('load', function () {
+              const data = JSON.parse(this.responseText);
+              const serverInfo = document.querySelector('.serverInfo');
+              //Iterate over the keys in the object returned from the server
+              Object.keys(data).forEach(p => {
+                //Find elements to replace for this property (i any)
+                const replacements = serverInfo.querySelectorAll(`[data-replace="${p}"]`);
+                //replace all elements with the value returned from the server
+                for (let r of replacements) {
+                  r.textContent = data[p];
+                }
+              });
+            });
+            req.open('GET', 'http://localhost:7070', true);
+            req.send()
+        }
+        setInterval(refreshServerInfo, 2000);
+    </script>
+<!--    <script src="ajaxServer.js"></script>-->
+</body>
+</html>

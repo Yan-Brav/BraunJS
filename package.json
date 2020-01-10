@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/Yan-Brav/BraunJS#readme",
   "dependencies": {
-    "core-js": "^3.4.5",
-    "moment": "^2.24.0"
+    "core-js": "^3.4.5"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
@@ -37,6 +36,9 @@
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-eslint": "^6.0.0",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }
